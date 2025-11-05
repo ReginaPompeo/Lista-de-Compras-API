@@ -1,0 +1,6 @@
+@ListaDeComprasAPI_HostAddress = http://localhost:5153
+
+GET {{ListaDeComprasAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
