@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Portfolio_Programacao\\GitHub\\Lista-de-Compras-API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|d:\\portfolio_programacao\\github\\lista-de-compras-api\\listadecomprasapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|solutionrelative:listadecomprasapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Portfolio_Programacao\\GitHub\\Lista-de-Compras-API\\ListaDeComprasAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "ListaDeComprasAPI\\Dockerfile",
+              "ToolTip": "D:\\Portfolio_Programacao\\GitHub\\Lista-de-Compras-API\\ListaDeComprasAPI\\Dockerfile",
+              "RelativeToolTip": "ListaDeComprasAPI\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-06T02:41:24.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
