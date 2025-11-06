@@ -1,9 +1,8 @@
 ﻿using ListaDeComprasAPI.Data; //Ele importa AppDbContext.
 using ListaDeComprasAPI.Models; //Ele traz o ItemModel.
 using Microsoft.AspNetCore.Mvc; //Esse traz classes do ASP.NET para criar controllers, atributos como [HttpGet], ActionResult, etc.
-using Microsoft.EntityFrameworkCore; //Ele traz métodos assíncronos e EntityState usados com EF Core.0
-using MySql.Data.MySqlClient;
-
+using Microsoft.EntityFrameworkCore; //Ele traz métodos assíncronos e EntityState usados com EF Core.
+using Microsoft.Data.Sqlite;
 
 namespace ListaDeComprasAPI.Controllers
 {
@@ -70,18 +69,34 @@ namespace ListaDeComprasAPI.Controllers
             return NoContent(); //Retorna 204 No content no final
         }
 
+        //[HttpGet("testar-conexao")]
+        //public ActionResult TestarConexao()
+        //{
+        //    try
+        //    {
+        //        using var connection = new MySqlConnection(_context.Database.GetConnectionString());
+        //        connection.Open();
+        //        return Ok("Conectado com sucesso!");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return BadRequest($"Erro: {ex.Message}");
+        //    }
+        //}
+
         [HttpGet("testar-conexao")]
         public ActionResult TestarConexao()
         {
             try
             {
-                using var connection = new MySqlConnection(_context.Database.GetConnectionString());
+                var connectionString = _context.Database.GetConnectionString();
+                using var connection = new SqliteConnection(connectionString);
                 connection.Open();
-                return Ok("Conectado com sucesso!");
+                return Ok("Conectado com sucesso ao SQLite!");
             }
             catch (Exception ex)
             {
-                return BadRequest($"Erro: {ex.Message}");
+                return BadRequest($"Erro ao conectar: {ex.Message}");
             }
         }
 
