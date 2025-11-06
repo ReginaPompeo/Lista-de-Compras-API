@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Portfolio_Programacao\\GitHub\\Lista-de-Compras-API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|d:\\portfolio_programacao\\github\\lista-de-compras-api\\listadecomprasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|solutionrelative:listadecomprasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|d:\\portfolio_programacao\\github\\lista-de-compras-api\\listadecomprasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|solutionrelative:listadecomprasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|d:\\portfolio_programacao\\github\\lista-de-compras-api\\listadecomprasapi\\controllers\\itenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|solutionrelative:listadecomprasapi\\controllers\\itenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|d:\\portfolio_programacao\\github\\lista-de-compras-api\\listadecomprasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|solutionrelative:listadecomprasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{412C7751-C17E-49CC-A7D6-3093D18577D1}|ListaDeComprasAPI\\ListaDeComprasAPI.csproj|d:\\portfolio_programacao\\github\\lista-de-compras-api\\listadecomprasapi\\models\\itemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Portfolio_Programacao\\GitHub\\Lista-de-Compras-API\\ListaDeComprasAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ListaDeComprasAPI\\appsettings.json",
@@ -47,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Portfolio_Programacao\\GitHub\\Lista-de-Compras-API\\ListaDeComprasAPI\\Program.cs",
               "RelativeDocumentMoniker": "ListaDeComprasAPI\\Program.cs",
               "ToolTip": "D:\\Portfolio_Programacao\\GitHub\\Lista-de-Compras-API\\ListaDeComprasAPI\\Program.cs",
               "RelativeToolTip": "ListaDeComprasAPI\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T03:12:45.342Z",
               "EditorCaption": ""
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ItensController.cs",
               "DocumentMoniker": "D:\\Portfolio_Programacao\\GitHub\\Lista-de-Compras-API\\ListaDeComprasAPI\\Controllers\\ItensController.cs",
               "RelativeDocumentMoniker": "ListaDeComprasAPI\\Controllers\\ItensController.cs",
@@ -80,8 +80,7 @@
               "RelativeToolTip": "ListaDeComprasAPI\\Controllers\\ItensController.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAiwGsAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T02:58:15.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T02:58:15.409Z"
             },
             {
               "$type": "Document",
