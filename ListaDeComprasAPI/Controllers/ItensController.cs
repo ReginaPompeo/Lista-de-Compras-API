@@ -100,6 +100,21 @@ namespace ListaDeComprasAPI.Controllers
             }
         }
 
+        [HttpGet("debug-db")]
+        public ActionResult DebugDb()
+        {
+            try
+            {
+                var connectionString = _context.Database.GetConnectionString();
+                return Ok($"Conexão: {connectionString}");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Erro: {ex.Message}");
+            }
+        }
+
+
     }
 }
 
